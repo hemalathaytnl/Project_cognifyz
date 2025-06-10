@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cognifyz Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="about">
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Cognifyz Technology</div>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#projects">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="welcome-section" class="container">
+        <h1 id="title"><div class="typewriter">🧑‍💻Cognifyz Technology🚀</div></h1>
+        <p class="lead"><em>Where Data meets intelligence.</em></p>
+    </div>
+</header>
+
+<section id="projects">
+    <div class="about-container">
+        <div class="about-text">
+            <h4>About</h4>
+            <h3>Cognifyz Technology</h3>
+            <p><i>Cognifyz Technology is a data-driven IT solutions company delivering digital transformation and automation services across industries.</i></p>
+            <p><i>As an intern, I contributed to building this front-end project to showcase company information, vision, and services in a clean, responsive format.</i></p>
+            <p><strong>Motto:</strong> Bridging Innovation with Technology</p>
+        </div>
+        <div class="about-image">
+            <img src="https://kraftpixel.com/wp-content/uploads/2020/10/photo-14.jpg" alt="office" />
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h3>Cognifyz Technology</h3>
+        <h2>Company Information</h2>
+        <p><i>Industry: IT System Data Services</i><br>
+        <i>Company Size: 11–50 employees</i><br>
+        <i>Headquarters: Nagpur, Maharashtra</i><br>
+        <i>Founded: 2023</i><br>
+        
+
+        <div class="social">
+            <h3>More Contact</h3><br>
+            <a target="_blank" href="https://cognifyz.com/">Website</a>
+            <a target="_blank" href="https://in.linkedin.com/company/cognifyz-techonologies">LinkedIn</a>
+            <a target="_blank" href="https://www.instagram.com/cognifyz_tech/?hl=en">Instagram</a><br>
+            <a target="_blank" href="https://cognifyz.com/internships/">Apply Now</a>
+            
+        </div>
+    </div>
+</section>
+
+<footer id="main-footer">
+    <div class="container">
+        <p id="creator">&copy; <script>document.write(new Date().getFullYear());</script> Cognifyz</p>
+    </div>
+</footer>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>
